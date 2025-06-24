@@ -1,8 +1,8 @@
-# Contributing
+# Contribuição
 
-Pull requests are very welcome, but should be within the scope of the project, and follow the repository's code conventions. Before submitting a pull request, it's always good to file an issue, so we can discuss the details of the PR.
+Os pedidos de submissão são bem-vindos, mas deverão ser no âmbito do projeto, e seguir as convenções do código do repositório. Antes de submeter um pedido de submissão, é sempre bom preencher um formulário de problemas, e assim, nós podemos discutir os detalhes do PR.
 
-## Reporting a Bug
+## Reportar um Erro
 
 1. Ensure you've replicated the issue against `main`. There is a chance the issue may have already been fixed.
 
@@ -12,7 +12,7 @@ Pull requests are very welcome, but should be within the scope of the project, a
 
 4. The best way to demonstrate a bug is to build a failing test. This is not required, however, it will generally speed up the development process.
 
-## Submitting a pull request
+## Submeter um pedido de sumissão
 
 1. [Fork](https://github.com/formatjs/formatjs/fork/) the repository.
 
@@ -26,9 +26,9 @@ Pull requests are very welcome, but should be within the scope of the project, a
 
 1. Last step, [submit the pull request](https://github.com/formatjs/formatjs/compare/)!
 
-## Development
+## Desenvolvimento
 
-### Requirements
+### Requisitos
 
 - [`bazel`](https://bazel.build/)
 
@@ -58,7 +58,7 @@ cd ../formatjs2
 npx pnpm -r publish --access=public
 ```
 
-### Updating tzdata version
+### Atualizar a versão tzdata
 
 `tzdata` requires `Docker` to be installed. This is because tzdata compilation requires `make`.
 
@@ -76,7 +76,7 @@ bazel run //packages/intl-datetimeformat:update_tz_data
 
 1. New TimeZones or renames of TimeZones are not updated using the Bazel script. You need to manually update `index.bzl`.
 
-### Updating test snapshots
+### Atualizar as capturas de ecrã de teste
 
 You can update the snapshot by running the test target + `_update_snapshots`, e.g
 
@@ -84,7 +84,7 @@ You can update the snapshot by running the test target + `_update_snapshots`, e.
 bazel run //packages/cli/integration-tests:compile_folder_integration_test_update_snapshots
 ```
 
-### Generating CLDR data
+### Geração de dados CLDR
 
 1. Check out `./BUILD` file for generatable data — which are identifiable via `generate_src_file()` call
 
@@ -113,9 +113,9 @@ bazel run //packages/cli/integration-tests:compile_folder_integration_test_updat
    bazel run //packages/icu-messageformat-parser:regex
 ```
 
-### Working on `formatjs.github.io` website
+### Trabalhar no <i>site</i> da Web `formatjs.github.io`
 
-We use [docusaurus](https://docusaurus.io/) for documentation. To run the website locally:
+Nós utilizamos [docusaurus](https://docusaurus.io/) para a documentação. Para executar o <i>site</i> da Web localmente:
 
 ```sh
 cd website
