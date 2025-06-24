@@ -1,22 +1,22 @@
 # FormatJS
 
-[![Unit Tests](https://github.com/formatjs/formatjs/actions/workflows/tests.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests.yml)
-[![Karma Tests](https://github.com/formatjs/formatjs/actions/workflows/tests-karma.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests-karma.yml)
+[![Testes de Unidade](https://github.com/formatjs/formatjs/actions/workflows/tests.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests.yml)
+[![Testes Karma](https://github.com/formatjs/formatjs/actions/workflows/tests-karma.yml/badge.svg)](https://github.com/formatjs/formatjs/actions/workflows/tests-karma.yml)
 [![Slack FormatJS](https://img.shields.io/badge/slack-@formatjs-green.svg?logo=slack)](https://join.slack.com/t/formatjs/shared_invite/enQtNjM2MjM4NjE4ODIxLTMyMWE0YTNhMTlmMzZlNzJlNjEzMWY0YjM2ODUxYjlmNDE2YzQyMDIxZDg3Y2Q5YWNlMzhhYzRiNDk0OGQwNGI)
-[![Sauce Browser Matrix Status](https://app.saucelabs.com/browser-matrix/formatjsproject.svg)](https://app.saucelabs.com/u/formatjsproject)
+[![Estado de Sauce Browser Matrix](https://app.saucelabs.com/browser-matrix/formatjsproject.svg)](https://app.saucelabs.com/u/formatjsproject)
 
-This repository is the home of [FormatJS](http://formatjs.github.io/) and related libraries.
+Este repositório é o Local do [FormatJS](http://formatjs.github.io/) e bibliotecas relacionadas.
 
-**Slack:** Join us on Slack at [formatjs.slack.com](https://formatjs.slack.com/) for help, general conversation and more 💬🎊🎉
-You can sign-up using this [invitation link](https://join.slack.com/t/formatjs/shared_invite/enQtNjYwMzE4NjM1MDQzLTA5NDE1Y2Y1ZWNiZWI1YTU5MGUxY2M0YjA4NWNhMmU3YTRjZmQ3MTE3NzJmOTAxMWRmYWE1ZTdkMmYzNzA5Y2M).
+**Slack:** Junte-se a nós no Slack em [formatjs.slack.com](https://formatjs.slack.com/) para ajuda, conversação geral e muito mais 💬🎊🎉
+Pode registar-se utilziadno esta [hiperligação de convite](https://join.slack.com/t/formatjs/shared_invite/enQtNjYwMzE4NjM1MDQzLTA5NDE1Y2Y1ZWNiZWI1YTU5MGUxY2M0YjA4NWNhMmU3YTRjZmQ3MTE3NzJmOTAxMWRmYWE1ZTdkMmYzNzA5Y2M).
 
-## Development
+## Desenvolvimento
 
-See [CONTRIBUTING.md](CONTRIBUTING.md#Development) for instructions.
+Consulte [CONTRIBUTING.md](CONTRIBUTING.md#Development) para instruções.
 
-## Published Packages
+## Pacotes Publicados
 
-| Package                                                                                                | Version                                                                 | Changelog                                                             | License                                                                       |
+| Pacote                                                                                                | Versão                                                                 | Registo de Eventos                                                             | Licença                                                                       |
 | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | [@formatjs/cli](https://www.npmjs.com/package/@formatjs/cli)                                           | ![version](https://badgen.net/npm/v/@formatjs/cli)                      | [CHANGELOG](packages/cli/CHANGELOG.md)                                | ![license](https://badgen.net/npm/license/@formatjs/cli)                      |
 | [@formatjs/cli-lib](https://www.npmjs.com/package/@formatjs/cli-lib)                                   | ![version](https://badgen.net/npm/v/@formatjs/cli-lib)                  | [CHANGELOG](packages/cli-lib/CHANGELOG.md)                            | ![license](https://badgen.net/npm/license/@formatjs/cli-lib)                  |
@@ -39,9 +39,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#Development) for instructions.
 | [react-intl](https://www.npmjs.com/package/react-intl)                                                 | ![version](https://badgen.net/npm/v/react-intl)                         | [CHANGELOG](packages/react-intl/CHANGELOG.md)                         | ![license](https://badgen.net/npm/license/react-intl)                         |
 | [@formatjs/utils](https://www.npmjs.com/package/@formatjs/utils)                                       | ![version](https://badgen.net/npm/v/@formatjs/utils)                    | [CHANGELOG](packages/utils/CHANGELOG.md)                              | ![license](https://badgen.net/npm/license/@formatjs/utils)                    |
 
-## Big Thanks
+## Os Nossos Agradecimentos
 
-Cross-browser Testing Platform and Open Source <3 Provided by [Sauce Labs][saucelabs]
+Plataforma de Testes entre navegadores e Código Aberto <3 Fornecido por [Sauce Labs][saucelabs]
 
 [lerna]: https://lerna.js.org/
 [saucelabs]: https://saucelabs.com
